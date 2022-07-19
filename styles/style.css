@@ -1,0 +1,93 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.navigation {
+    display: flex;
+    flex-direction: ;
+    justify-content: space-between;
+}
+
+/*---------- styles for all --------
+ ------------ */
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+.link-button {
+    background-color: tomato;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+/* first-part styles  */
+
+.first-part {
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+}
+
+.first-part-1 {
+    width: 585px;
+}
+
+.first-part-2 {
+    width: 440px;
+}
+
+#camera {
+    position: relative;
+
+    z-index: 10;
+}
+
+#background {
+    position: relative;
+    z-index: 5;
+    top: -450px;
+    left: -45px;
+}
+
+.logos {
+    /* border: 2px solid red; */
+
+    align-items: center;
+    width: 1000px;
+    padding-left: 10px;
+    margin-left: 16%;
+    margin-top: -25%;
+    display: flex;
+    gap: 40px;
+}
+
+hr {
+    color: red;
+}
+
+.container {
+    width: 1000px;
+    background-color: skyblue;
+    /* align-items: center;
+    justify-content: space-between; */
+}
+
+.second-part {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+}
+
+.awesome-font {
+    color: gold;
+}
